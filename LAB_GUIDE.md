@@ -307,7 +307,7 @@ MATCH p = shortestPath((a)-[*..4]-(b)) RETURN p LIMIT 5;
    python bench_kg.py --build --limit 2
    ```
 
-2. **Viết Cypher trong Neo4j Browser** (http://localhost:7474, xem Bước 8.1). Bắt đầu đơn giản, thêm dần điều kiện. Ví dụ với ontology gợi ý:
+2. **Viết Cypher trong   dần điều kiện. Ví dụ với ontology gợi ý:
 
    ```cypher
    // a. Bài báo dùng để check có những node/cạnh nào?
